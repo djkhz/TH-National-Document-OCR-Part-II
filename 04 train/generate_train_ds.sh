@@ -1,5 +1,4 @@
 rm -rf train/*
-PANGOCAIRO_BACKEND=fc \
 tesseract/src/training/tesstrain.sh --fonts_dir fonts \
          --fontlist 'TH Sarabun New' \
          --lang tha \
